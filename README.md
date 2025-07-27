@@ -81,10 +81,11 @@ Automation: Shell script (.sh)
 
 ### 1️⃣ 하이퍼파라미터 탐색 (Ray Tune 사용)
 configs/tune/search_full.yaml을 기반으로 lr, batch_size, weight_decay 등을 탐색
-
+```
 bash scripts/tune/train_exp1_full.sh
-
+```
 실행 시 내부적으로 다음 Python 명령이 실행
+```
 python src/tune/run_tuner.py \
   --name ray_exp1 \
   --config_file configs/tune/search_full.yaml \
@@ -99,14 +100,15 @@ python src/tune/run_tuner.py \
   --logging_console_level INFO \
   --logging_file_level INFO \
   --save_path outputs/hparam
+```
 
 ### 2️⃣ 모델 학습 (main.py + JSON config 사용)
 
 선택된 하이퍼파라미터를 기반으로 실제 학습을 수행
 config는 configs/train/train_config.json에 정의
-
+```
 python main.py --config_file configs/train/train_config.json
-
+```
 실행 시 내부적으로 다음 Python 명령이 실행
 
 ```
