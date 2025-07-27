@@ -1,0 +1,20 @@
+{
+  "train_path": "data/raw/train.csv",
+  "test_path" : "data/raw/test.csv",
+  "lr": 0.001,
+  "batch_size": 64,
+  "optimizer": "adam",
+  "weight_decay": 0.001,
+  "logging_path": "logs/logging/train/train.log",
+  "logging_basic_level": "DEBUG",
+  "logging_console_level": "INFO",
+  "logging_file_level": "INFO",
+  "mlflow_log_path": "logs/mlflow/train",
+  "tensorboard_log_path": "logs/tensorboard/train",
+  "scheduler_patience": 3,
+  "scheduler_lr_factor": 0.5,
+  "scheduler_mode": "min",
+  "earlystop_patience": 3,
+  "earlystop_delta": 0.001,
+  "earlystop_mode": "min"
+}

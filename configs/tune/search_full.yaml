@@ -1,0 +1,9 @@
+lr:
+  space: loguniform
+  min: 0.00005
+  max: 0.001
+
+weight_decay:
+  space: uniform
+  min: 0.0
+  max: 0.01

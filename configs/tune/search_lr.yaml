@@ -1,0 +1,8 @@
+lr:
+  space: loguniform
+  min: 0.0001
+  max: 0.01
+
+batch_size:
+  space: choice
+  values: [32, 64]
