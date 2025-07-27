@@ -1,7 +1,11 @@
 # pytorch-pipeline-practice
+
 캐글의 고양이/강아지 이진 분류 예제를 기반으로 CNN 학습 파이프라인 구성 연습
+
 단순 모델 구현에 그치지 않고, 하이퍼파라미터 탐색, 로깅, 시각화, 실험 추적 등 다양한 실험 관리 도구를 적용
+
 결과 성능보다 ML 실무 파이프라인 흐름을 익히는 데 초점
+
 캐글 정답 데이터 부재로 예측(inference) 모듈은 포함되어 있지 않음.
 
 ## 🔧 주요 기능 요약 (Features)
@@ -30,6 +34,7 @@ Automation: Shell script (.sh)
 
 ## 📁 프로젝트 구조
 
+```
 ├── main.py # (Train)실행 진입점
 ├── requirements.txt # 패키지 목록
 ├── README.md # 프로젝트 설명
@@ -70,6 +75,7 @@ Automation: Shell script (.sh)
 ├── train.py # 학습 로직
 ├── utils.py # 기타 유틸 함수
 └── tune/ # Ray Tune 관련 코드(train_fn,run_tuner,tune_utils 등)
+```
 
 ## ⚙️ 실행 방법 (Usage)
 
