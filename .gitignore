@@ -19,3 +19,5 @@ __pycache__/
 # 기타 무시할 항목
 temp/
 .DS_Store
+
+.bashrc
