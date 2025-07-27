@@ -1,12 +1,18 @@
 # 로그 파일 무시
-logs/
-*.log
-
+logs/**/*
+!logs/
+!logs/logging/
+!logs/mlflow/
+!logs/tensorboard/
 # 체크포인트 및 결과 무시
-*.pth
+
 checkpoint.pt
 checkpoint/
-outputs/
+outputs/**/*
+!outputs/
+!outputs/experiments/
+!outputs/hparam/
+!outputs/inference_results/
 
 # 환경 변수 파일 무시
 .env
