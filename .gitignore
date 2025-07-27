@@ -1,7 +1,5 @@
 # 로그 파일 무시
-logs/logging/inference
-logs/logging/train
-logs/logging/tune
+
 
 logs/tensorboard/train
 logs/tensorboard/tune

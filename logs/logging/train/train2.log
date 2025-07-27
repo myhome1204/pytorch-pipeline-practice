@@ -1,0 +1,49 @@
+2025-07-25 18:16:41,071 [INFO] train.py:fit: train : Epoch [1/50], Train Loss: 0.3522, Train Acc: 0.8853
+2025-07-25 18:16:41,250 [INFO] train.py:fit: val : Epoch [1/50], val Loss: 0.0757, val Acc: 0.9760
+2025-07-25 18:16:41,259 [INFO] train.py:fit: [Epoch 1] current_lr : 0.000460
+2025-07-25 18:16:41,260 [INFO] early_stopping.py:__call__: [EarlyStopping] best score updated to 0.07566
+2025-07-25 18:16:41,260 [INFO] early_stopping.py:save_checkpoint: Score improved (0.075658 ¡æ 0.075658). Saving model ...
+2025-07-25 18:16:43,406 [INFO] train.py:fit: train : Epoch [2/50], Train Loss: 0.1019, Train Acc: 0.9679
+2025-07-25 18:16:43,614 [INFO] train.py:fit: val : Epoch [2/50], val Loss: 0.0596, val Acc: 0.9820
+2025-07-25 18:16:43,620 [INFO] train.py:fit: [Epoch 2] current_lr : 0.000460
+2025-07-25 18:16:43,620 [INFO] early_stopping.py:__call__: [EarlyStopping] best score updated to 0.05962
+2025-07-25 18:16:43,620 [INFO] early_stopping.py:save_checkpoint: Score improved (0.059621 ¡æ 0.059621). Saving model ...
+2025-07-25 18:16:45,825 [INFO] train.py:fit: train : Epoch [3/50], Train Loss: 0.0758, Train Acc: 0.9774
+2025-07-25 18:16:46,034 [INFO] train.py:fit: val : Epoch [3/50], val Loss: 0.0443, val Acc: 0.9868
+2025-07-25 18:16:46,034 [INFO] train.py:fit: [Epoch 3] current_lr : 0.000460
+2025-07-25 18:16:46,034 [INFO] early_stopping.py:__call__: [EarlyStopping] best score updated to 0.04430
+2025-07-25 18:16:46,034 [INFO] early_stopping.py:save_checkpoint: Score improved (0.044300 ¡æ 0.044300). Saving model ...
+2025-07-25 18:16:48,360 [INFO] train.py:fit: train : Epoch [4/50], Train Loss: 0.0656, Train Acc: 0.9801
+2025-07-25 18:16:48,592 [INFO] train.py:fit: val : Epoch [4/50], val Loss: 0.0421, val Acc: 0.9877
+2025-07-25 18:16:48,596 [INFO] train.py:fit: [Epoch 4] current_lr : 0.000460
+2025-07-25 18:16:48,596 [INFO] early_stopping.py:__call__: [EarlyStopping] best score updated to 0.04211
+2025-07-25 18:16:48,596 [INFO] early_stopping.py:save_checkpoint: Score improved (0.042106 ¡æ 0.042106). Saving model ...
+2025-07-25 18:16:50,979 [INFO] train.py:fit: train : Epoch [5/50], Train Loss: 0.0590, Train Acc: 0.9820
+2025-07-25 18:16:51,194 [INFO] train.py:fit: val : Epoch [5/50], val Loss: 0.0391, val Acc: 0.9882
+2025-07-25 18:16:51,200 [INFO] train.py:fit: [Epoch 5] current_lr : 0.000460
+2025-07-25 18:16:51,200 [INFO] early_stopping.py:__call__: [EarlyStopping] best score updated to 0.03905
+2025-07-25 18:16:51,200 [INFO] early_stopping.py:save_checkpoint: Score improved (0.039055 ¡æ 0.039055). Saving model ...
+2025-07-25 18:16:53,487 [INFO] train.py:fit: train : Epoch [6/50], Train Loss: 0.0524, Train Acc: 0.9838
+2025-07-25 18:16:53,705 [INFO] train.py:fit: val : Epoch [6/50], val Loss: 0.0339, val Acc: 0.9894
+2025-07-25 18:16:53,709 [INFO] train.py:fit: [Epoch 6] current_lr : 0.000460
+2025-07-25 18:16:53,709 [INFO] early_stopping.py:__call__: [EarlyStopping] best score updated to 0.03385
+2025-07-25 18:16:53,709 [INFO] early_stopping.py:save_checkpoint: Score improved (0.033852 ¡æ 0.033852). Saving model ...
+2025-07-25 18:16:55,930 [INFO] train.py:fit: train : Epoch [7/50], Train Loss: 0.0489, Train Acc: 0.9849
+2025-07-25 18:16:56,148 [INFO] train.py:fit: val : Epoch [7/50], val Loss: 0.0362, val Acc: 0.9896
+2025-07-25 18:16:56,150 [INFO] train.py:fit: [Epoch 7] current_lr : 0.000460
+2025-07-25 18:16:58,460 [INFO] train.py:fit: train : Epoch [8/50], Train Loss: 0.0426, Train Acc: 0.9868
+2025-07-25 18:16:58,703 [INFO] train.py:fit: val : Epoch [8/50], val Loss: 0.0306, val Acc: 0.9912
+2025-07-25 18:16:58,706 [INFO] train.py:fit: [Epoch 8] current_lr : 0.000460
+2025-07-25 18:16:58,706 [INFO] early_stopping.py:__call__: [EarlyStopping] best score updated to 0.03057
+2025-07-25 18:16:58,706 [INFO] early_stopping.py:save_checkpoint: Score improved (0.030568 ¡æ 0.030568). Saving model ...
+2025-07-25 18:17:00,966 [INFO] train.py:fit: train : Epoch [9/50], Train Loss: 0.0422, Train Acc: 0.9867
+2025-07-25 18:17:01,189 [INFO] train.py:fit: val : Epoch [9/50], val Loss: 0.0417, val Acc: 0.9875
+2025-07-25 18:17:01,194 [INFO] train.py:fit: [Epoch 9] current_lr : 0.000460
+2025-07-25 18:17:03,410 [INFO] train.py:fit: train : Epoch [10/50], Train Loss: 0.0392, Train Acc: 0.9876
+2025-07-25 18:17:03,643 [INFO] train.py:fit: val : Epoch [10/50], val Loss: 0.0421, val Acc: 0.9876
+2025-07-25 18:17:03,647 [INFO] train.py:fit: [Epoch 10] current_lr : 0.000460
+2025-07-25 18:17:05,854 [INFO] train.py:fit: train : Epoch [11/50], Train Loss: 0.0390, Train Acc: 0.9876
+2025-07-25 18:17:06,075 [INFO] train.py:fit: val : Epoch [11/50], val Loss: 0.0406, val Acc: 0.9888
+2025-07-25 18:17:06,080 [INFO] train.py:fit: [Epoch 11] current_lr : 0.000460
+2025-07-25 18:17:06,080 [WARNING] early_stopping.py:__call__: [EarlyStopping] Triggered! Patience 3 exceeded. Best score: 0.03057
+2025-07-25 18:17:06,080 [WARNING] train.py:fit: [EarlyStopping] Stopped early at epoch 11
