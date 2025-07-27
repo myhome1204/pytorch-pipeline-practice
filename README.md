@@ -103,7 +103,8 @@ python main.py --config_file configs/train/train_config.json
 
 실행 시 내부적으로 다음 Python 명령이 실행
 
-```{
+```
+{
   "train_path": "data/raw/train.csv",
   "test_path" : "data/raw/test.csv",
   "lr": 0.00046,
@@ -122,6 +123,7 @@ python main.py --config_file configs/train/train_config.json
   "earlystop_patience": 3,
   "earlystop_delta": 0.001,
   "earlystop_mode": "min"
-}```
+}
+```
 
 
