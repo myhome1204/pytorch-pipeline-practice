@@ -1,18 +1,24 @@
 # 로그 파일 무시
-logs/**/*
-!logs/
-!logs/logging/
-!logs/mlflow/
-!logs/tensorboard/
+logs/logging/inference
+logs/logging/train
+logs/logging/tune
+
+logs/tensorboard/train
+logs/tensorboard/tune
+
+logs/mlflow/train
+logs/mlflow/tune
+
 # 체크포인트 및 결과 무시
 
 checkpoint.pt
 checkpoint/
-outputs/**/*
-!outputs/
-!outputs/experiments/
-!outputs/hparam/
-!outputs/inference_results/
+
+outputs/hparam/*
+
+!outputs/hparam/.gitkeep
+!outputs/hparam/best_result_search_lr.yaml_2025-07-25_17-28-30.json
+
 
 # 환경 변수 파일 무시
 .env
